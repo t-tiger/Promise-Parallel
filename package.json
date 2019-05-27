@@ -1,0 +1,36 @@
+{
+  "name": "promise-paralleled",
+  "description": "Execute asynchronous task with promise by specifying the number of concurrency",
+  "version": "1.0.18",
+  "author": "tiger <tachiba@gmail.com> (https://github.com/t-tiger)",
+  "bugs": {
+    "url": "https://github.com/t-tiger/Promise-Paralleled/issues"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/t-tiger/Promise-Paralleled#readme",
+  "keywords": [
+    "Async",
+    "Async/Await",
+    "Await",
+    "Concurrent",
+    "Multiple",
+    "Parallel",
+    "Promise"
+  ],
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-tiger/Promise-Paralleled.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  }
+}
