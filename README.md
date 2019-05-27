@@ -90,7 +90,7 @@ Usage is exactly the same as `parallel`, but the behavior differs in the followi
 
 `parallel` executes new jobs one after another as soon as the specified processing space is free. For example, if one job takes 1000ms and other jobs take 200ms, five other jobs will be completed while the first job is completed.
 
-On the other hand, `serializedParallel` doesn't execute next job until the specified number of jobs are completed. In the previous case, when short job is completed, next jobs are not started until the first job finished.
+On the other hand, `serializedParallel` doesn't execute next job until the specified number of jobs are completed. In the previous case, when short job is completed, next jobs are not started until the long job finished.
 
 # License
 
