@@ -12,10 +12,13 @@ This library is very simple and light, not depending on any external libraries (
 
 # Install
 
-You can install package via npm command.
+You can install package from npm or yarn command.
 
 ```bash
-npm install promise-paralleled --save
+$ npm install promise-paralleled --save
+```
+```bash
+$ yarn add promise-paralleled
 ```
 
 # Usage
